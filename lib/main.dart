@@ -12,7 +12,19 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       title: "space app",
       home: Scaffold(
-        body: Image.asset("assets/pngtree-formal-gray-color-suit-png-png-image_3017526.png")
+        backgroundColor: Colors.black26,
+        body: Column(
+          children: [
+            Image.asset("assets/pngtree-formal-gray-color-suit-png-png-image_3017526.png",
+            height: 200,),
+
+            const SizedBox(
+              height: 50,
+            ),
+            Image.asset("assets/pngtree-formal-gray-color-suit-png-png-image_3017526.png",
+            height: 200,)
+          ],
+        )
       ),
     );
   }
