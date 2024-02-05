@@ -12,14 +12,18 @@ class MyApp extends StatelessWidget {
     return  MaterialApp(
       title: "space app",
       home: Scaffold(
-        body: Container(
-          height: 250,
-          width: 250,
-          child: const Text("HELLO"),
+        body: Center(
+          child: Container(
+            height: 250,
+            width: 250,
+            
+            
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(0),
+              color: Colors.red,
+            ),
           
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(0),
-            color: Colors.red,
+           child: const Center(child: Text("HELLO")),
           ),
         ),
       ),
