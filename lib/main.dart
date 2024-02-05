@@ -15,14 +15,16 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.black26,
         body: Column(
           children: [
-            Image.asset("assets/pngtree-formal-gray-color-suit-png-png-image_3017526.png",
-            height: 200,),
+            Padding(
+              padding: const EdgeInsets.only(top: 400),
+              child: Image.asset("assets/pngtree-formal-gray-color-suit-png-png-image_3017526.png",
+              height: 200,),
+            ),
 
             const SizedBox(
-              height: 50,
+              height: 100,
             ),
-            Image.asset("assets/pngtree-formal-gray-color-suit-png-png-image_3017526.png",
-            height: 200,)
+           // Image.asset("assets/pngtree-formal-gray-color-suit-png-png-image_3017526.png",height: 200,)
           ],
         )
       ),
