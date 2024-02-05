@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         body: Container(
           height: 250,
           width: 250,
-          child: ,
+          child: const Text("HELLO"),
           
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(0),
